@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Mini Dimensional Traveler Game</title>
+
+        <!-- CSS file -->
+        <link rel="stylesheet" media="all" type="text/css" href="styles.css" />
+
+        <!--- animation --->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        
+        <!-- JS File -->
+        <script src="scripts.js"></script>
+
+    </head>
+
+    <body>
+        <div class="text-center">
+            <h1 class="animate__animated animate__slideInDown">Mini Dimensional Traveler Game</h1>
+        </div>
+        </br>
+
+        <div class="container">
+            <iframe width="420" height="345" 
+                src="https://youtu.be/eUKOhzKL7IM">
+            </iframe>
+            <h4>Overview</h4>
+            <p>This was my 15–112 Term Project of Spring 2021 created from scratch in Python with 
+                no imported packages and simply using TKinter graphics. In this game, the user 
+                will have to navigate through a randomized maze while avoiding different obstacles. 
+                Obstacles include spikes, repetitive missiles, and chasing lava. As the player is 
+                traversing, there will be coins to collect to increase their score as well as different 
+                levels with increasing difficulty. The objective of the game is to reach an exit door 
+                also known as a new dimension, hence the name.​ The most difficult part in creating this 
+                project was developing the randomized maze algorithm. Since the user moves in “hard” 
+                directions, where any key-arrow pressed will trigger the character to jump to the immediate 
+                wall that is eligible, I had to take into account valid moves, exit spaces, obstacles as 
+                well as other triggers for debugging purposes in the creation. In the end, everything was 
+                successful and this is a fully functioning game with a leaderboard, username input, pause/play 
+                button, and a restart option.</p>
+
+                <button onclick="location.href = 'index.html';" id="myButton" class="float-left submit-button">Home</button>
+        </div>
+
+        <footer>
+            <a href="mailto:rguice@andrew.cmu.edu"><img src="images/email.png" alt="Email Icon"></a>
+            <a href="https://www.linkedin.com/in/richelleguice/"><img src="images/linkedin.png" alt="LinkedIn Logo"></a>
+            &copy; Richelle Guice<br/>
+        </footer>
+
+    </body>
+</html>
